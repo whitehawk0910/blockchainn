@@ -70,7 +70,7 @@ contract Authentifi {
     }
 */
     // Function to create a new code for the product
-    function createCode(string _code, string _brand, string _model, uint _status, string _description, string _manufactuerName, string _manufactuerLocation, string _manufactuerTimestamp) public payable returns (uint) {
+    function createCode(string _code,string _brand, string _model, uint _status, string _description, string _manufactuerName, string _manufactuerLocation, string _manufactuerTimestamp) public payable returns (uint) {
         codeObj newCode;
         newCode.brand = _brand;
         newCode.model = _model;
